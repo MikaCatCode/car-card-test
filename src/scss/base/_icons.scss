@@ -1,0 +1,66 @@
+[class^="icon-"]:before,
+[class*=" icon-"]:before,
+[class^="icon-"]:after,
+[class*=" icon-"]:after {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ar-bottom:after {
+  content: "\e900";
+}
+.icon-ar-top:after {
+  content: "\e901";
+  margin-left: rem(8);
+}
+.icon-calendar:before {
+  content: "\e902";
+}
+.icon-clock:before {
+  content: "\e903";
+}
+.icon-date:before {
+  content: "\e904";
+}
+.icon-download:before {
+  content: "\e905";
+}
+.icon-engine:before {
+  content: "\e906";
+}
+.icon-fuel:before {
+  content: "\e907";
+}
+.icon-i:before {
+  content: "\e908";
+}
+.icon-like:before {
+  content: "\e909";
+}
+.icon-location:before {
+  content: "\e90a";
+}
+.icon-run:before {
+  content: "\e90b";
+}
+.icon-share:before {
+  content: "\e90c";
+}
+.icon-transmission:before {
+  content: "\e90d";
+}
+.icon-turbo:before {
+  content: "\e90e";
+}
+.icon-user:before {
+  content: "\e90f";
+}

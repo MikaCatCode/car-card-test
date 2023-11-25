@@ -1,0 +1,58 @@
+@use "sass:math";
+@use "sass:list";
+
+@import "base/normalize";
+@import "vars";
+@import "mixins/font-face";
+@import "mixins/units";
+@import "mixins/flex";
+@import "base/fonts";
+@import "base/icons";
+
+html {
+  box-sizing: border-box;
+  font-size: var(--fs);
+  height: -webkit-fill-available;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  color: var(--color-black);
+  min-width: 320px;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+}
+
+.container {
+  max-width: calc(var(--container-width) + (var(--container-padding) * 2));
+  width: 100%;
+  padding: 50px var(--container-padding);
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: var(--color-blue);
+}
+
+@import "components/forms";
+@import "components/swiper";
+@import "components/card";

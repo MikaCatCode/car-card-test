@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="uk" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Card Test</title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <main class="container card-list">
+      <!-- card -->
+      <article class="card-list__card card">
+        <header class="card__header">
+          <h3 class="card__title">
+            Opel Insignia - 2.0 Diesel Aut. Business Innovation / 2017
+          </h3>
+          <time datetime="00:08:15" class="card__time icon-clock"
+            >00:08:15</time
+          >
+        </header>
+        <div class="card__body">
+          <div class="card__info info-card">
+            <div class="info-card__base">
+              <div class="info-card__number">
+                <span class="info-card__num icon-i"> № 2550 </span>
+                <span class="info-card__action icon-i">
+                  15.05.2023 - PL - OPEN AUCTION segment B&C+LCV
+                </span>
+              </div>
+
+              <div class="info-card__location icon-location">Київ</div>
+              <time datetime="31.07.2017" class="info-card__date icon-clock"
+                >31.07.2017</time
+              >
+              <a href="#" class="info-card__site icon-ar-top">Сайт донор</a>
+            </div>
+            <div
+              class="info-card__user"
+              data-moveto="max-width: 767px, .card__content, .card__slider-wrapper"
+            >
+              <div class="info-card__userid dropdown">
+                <button class="dropdown__btn icon-ar-bottom">ID 544892</button>
+              </div>
+              <div class="info-card__username dropdown">
+                <button class="dropdown__btn icon-ar-bottom icon-user">
+                  User722
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card__content">
+            <div class="card__slider-wrapper">
+              <div class="card__slider">
+                <ul class="card__icons icons-share">
+                  <li class="icons-share__item">
+                    <a class="icons-share__link icon-download" href="#"></a>
+                  </li>
+                  <li class="icons-share__item">
+                    <a class="icons-share__link icon-share" href="#"></a>
+                  </li>
+                  <li class="icons-share__item">
+                    <a class="icons-share__link icon-like" href="#"></a>
+                  </li>
+                </ul>
+                <div class="card__swiper swiper cardslider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="card__params">
+              <div class="card__params-car params-car">
+                <dl class="params-car__items">
+                  <div class="params-car__item">
+                    <dt class="params-car__label">Тип палива</dt>
+                    <dd class="params-car__value icon-fuel">Diesel</dd>
+                  </div>
+                  <div class="params-car__item">
+                    <dt class="params-car__label">Рік випуску</dt>
+                    <dd class="params-car__value icon-date">04.10.2018</dd>
+                  </div>
+                  <div class="params-car__item">
+                    <dt class="params-car__label">Об’єм двигуна</dt>
+                    <dd class="params-car__value icon-engine">1956 см3</dd>
+                  </div>
+                  <div class="params-car__item">
+                    <dt class="params-car__label">КПП</dt>
+                    <dd class="params-car__value icon-transmission">
+                      Mechanic
+                    </dd>
+                  </div>
+                  <div class="params-car__item">
+                    <dt class="params-car__label">Потужність</dt>
+                    <dd class="params-car__value icon-turbo">75 kW</dd>
+                  </div>
+                  <div class="params-car__item">
+                    <dt class="params-car__label">Пробіг</dt>
+                    <dd class="params-car__value icon-run">211886 km</dd>
+                  </div>
+                </dl>
+              </div>
+              <form action="#" name="card-car-rate" class="card__rate cardrate">
+                <label>EUR</label>
+                <input
+                  type="text"
+                  name="car-rate"
+                  class="cardrate__input inputtext"
+                  placeholder="від 20300"
+                />
+                <button type="submit" class="cardrate__btn btn btn--blue">
+                  Розмістити ставку
+                </button>
+              </form>
+            </div>
+            <div class="card__prices">
+              <div class="card__rates-info rates-info">
+                <div class="card__calculate selectstyle">
+                  <select name="car-calculate">
+                    <option value="">Показати розрахунки</option>
+                    <option value="">Option 2</option>
+                    <option value="">Option 3</option>
+                  </select>
+                </div>
+                <div class="rates-info__bet">
+                  <span class="rates-info__label">Розміщена ставка</span>
+                  <span class="rates-info__price price--big price--blue"
+                    >20,300€</span
+                  >
+                </div>
+                <div class="rates-info__bet">
+                  <span class="rates-info__label">Сергій Петров</span>
+                  <a class="rates-info__phone" href="tel:+380937887887"
+                    >+380937887887</a
+                  >
+                </div>
+                <div class="rates-info__bet">
+                  <span class="rates-info__label">Ваша ставка</span>
+                  <span class="rates-info__price price--less price--red"
+                    >20,300€</span
+                  >
+                </div>
+                <div class="rates-info__bet">
+                  <span class="rates-info__label">Вартість авто в Польщі</span>
+                  <span class="rates-info__price price">21,360€</span>
+                </div>
+                <div class="rates-info__bet">
+                  <span class="rates-info__label"
+                    >Орієнтовна ціна з розмитненням</span
+                  >
+                  <span class="rates-info__price price">28,284€</span>
+                </div>
+              </div>
+              <button class="card__btn btn btn--border">
+                Купити одразу за <span>20,500 €</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- end card -->
+      <article class="card-list__card card">
+        <header class="card__header">
+          <h3 class="card__title">
+            Opel Insignia - 2.0 Diesel Aut. Business Innovation / 2017
+          </h3>
+          <time datetime="00:08:15" class="card__time icon-clock"
+            >00:08:15</time
+          >
+        </header>
+        <div class="card__body">
+          <div class="card__info info-card">
+            <div class="info-card__base">
+              <div class="info-card__number">
+                <span class="info-card__num icon-i"> № 2550 </span>
+                <span class="info-card__action icon-i">
+                  15.05.2023 - PL - OPEN AUCTION segment B&C+LCV
+                </span>
+              </div>
+
+              <div class="info-card__location icon-location">Київ</div>
+              <time datetime="31.07.2017" class="info-card__date icon-clock"
+                >31.07.2017</time
+              >
+              <a href="#" class="info-card__site icon-ar-top">Сайт донор</a>
+            </div>
+            <div
+              class="info-card__user"
+              data-moveto="max-width: 767px, .card__content, .card__slider-wrapper"
+            >
+              <div class="info-card__userid dropdown">
+                <button class="dropdown__btn icon-ar-bottom">ID 544892</button>
+              </div>
+              <div class="info-card__username dropdown">
+                <button class="dropdown__btn icon-ar-bottom icon-user">
+                  User722
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card__content">
+            <div class="card__slider-wrapper">
+              <div class="card__slider">
+                <ul class="card__icons icons-share">
+                  <li class="icons-share__item">
+                    <a class="icons-share__link icon-download" href="#"></a>
+                  </li>
+                  <li class="icons-share__item">
+                    <a class="icons-share__link icon-share" href="#"></a>
+                  </li>
+                  <li class="icons-share__item">
+                    <a class="icons-share__link icon-like" href="#"></a>
+                  </li>
+                </ul>
+                <div class="card__swiper swiper cardslider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="card__params">
+              <div class="card__params-car params-car">
+                <dl class="params-car__items">
+                  <div class="params-car__item">
+                    <dt class="params-car__label">Тип палива</dt>
+                    <dd class="params-car__value icon-fuel">Diesel</dd>
+                  </div>
+                  <div class="params-car__item">
+                    <dt class="params-car__label">Рік випуску</dt>
+                    <dd class="params-car__value icon-date">04.10.2018</dd>
+                  </div>
+                  <div class="params-car__item">
+                    <dt class="params-car__label">Об’єм двигуна</dt>
+                    <dd class="params-car__value icon-engine">1956 см3</dd>
+                  </div>
+                  <div class="params-car__item">
+                    <dt class="params-car__label">КПП</dt>
+                    <dd class="params-car__value icon-transmission">
+                      Mechanic
+                    </dd>
+                  </div>
+                  <div class="params-car__item">
+                    <dt class="params-car__label">Потужність</dt>
+                    <dd class="params-car__value icon-turbo">75 kW</dd>
+                  </div>
+                  <div class="params-car__item">
+                    <dt class="params-car__label">Пробіг</dt>
+                    <dd class="params-car__value icon-run">211886 km</dd>
+                  </div>
+                </dl>
+              </div>
+              <form action="#" name="card-car-rate" class="card__rate cardrate">
+                <label>EUR</label>
+                <input
+                  type="text"
+                  name="car-rate"
+                  class="cardrate__input inputtext"
+                  placeholder="від 20300"
+                />
+                <button type="submit" class="cardrate__btn btn btn--blue">
+                  Розмістити ставку
+                </button>
+              </form>
+            </div>
+            <div class="card__prices">
+              <div class="card__rates-info rates-info">
+                <div class="card__calculate selectstyle">
+                  <select name="car-calculate">
+                    <option value="">Показати розрахунки</option>
+                    <option value="">Option 2</option>
+                    <option value="">Option 3</option>
+                  </select>
+                </div>
+                <div class="rates-info__bet">
+                  <span class="rates-info__label">Розміщена ставка</span>
+                  <span class="rates-info__price price--big price--blue"
+                    >20,300€</span
+                  >
+                </div>
+                <div class="rates-info__bet">
+                  <span class="rates-info__label">Сергій Петров</span>
+                  <a class="rates-info__phone" href="tel:+380937887887"
+                    >+380937887887</a
+                  >
+                </div>
+                <div class="rates-info__bet">
+                  <span class="rates-info__label">Ваша ставка</span>
+                  <span class="rates-info__price price--less price--red"
+                    >20,300€</span
+                  >
+                </div>
+                <div class="rates-info__bet">
+                  <span class="rates-info__label">Вартість авто в Польщі</span>
+                  <span class="rates-info__price price">21,360€</span>
+                </div>
+                <div class="rates-info__bet">
+                  <span class="rates-info__label"
+                    >Орієнтовна ціна з розмитненням</span
+                  >
+                  <span class="rates-info__price price">28,284€</span>
+                </div>
+              </div>
+              <button class="card__btn btn btn--border">
+                Купити одразу за <span>20,500 €</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="card-list__card card">
+        <header class="card__header">
+          <h3 class="card__title">
+            Opel Insignia - 2.0 Diesel Aut. Business Innovation / 2017
+          </h3>
+          <time datetime="00:08:15" class="card__time icon-clock"
+            >00:08:15</time
+          >
+        </header>
+        <div class="card__body">
+          <div class="card__info info-card">
+            <div class="info-card__base">
+              <div class="info-card__number">
+                <span class="info-card__num icon-i"> № 2550 </span>
+                <span class="info-card__action icon-i">
+                  15.05.2023 - PL - OPEN AUCTION segment B&C+LCV
+                </span>
+              </div>
+
+              <div class="info-card__location icon-location">Київ</div>
+              <time datetime="31.07.2017" class="info-card__date icon-clock"
+                >31.07.2017</time
+              >
+              <a href="#" class="info-card__site icon-ar-top">Сайт донор</a>
+            </div>
+            <div
+              class="info-card__user"
+              data-moveto="max-width: 767px, .card__content, .card__slider-wrapper"
+            >
+              <div class="info-card__userid dropdown">
+                <button class="dropdown__btn icon-ar-bottom">ID 544892</button>
+              </div>
+              <div class="info-card__username dropdown">
+                <button class="dropdown__btn icon-ar-bottom icon-user">
+                  User722
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card__content">
+            <div class="card__slider-wrapper">
+              <div class="card__slider">
+                <ul class="card__icons icons-share">
+                  <li class="icons-share__item">
+                    <a class="icons-share__link icon-download" href="#"></a>
+                  </li>
+                  <li class="icons-share__item">
+                    <a class="icons-share__link icon-share" href="#"></a>
+                  </li>
+                  <li class="icons-share__item">
+                    <a class="icons-share__link icon-like" href="#"></a>
+                  </li>
+                </ul>
+                <div class="card__swiper swiper cardslider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img-content/slide.jpeg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="card__params">
+              <div class="card__params-car params-car">
+                <dl class="params-car__items">
+                  <div class="params-car__item">
+                    <dt class="params-car__label">Тип палива</dt>
+                    <dd class="params-car__value icon-fuel">Diesel</dd>
+                  </div>
+                  <div class="params-car__item">
+                    <dt class="params-car__label">Рік випуску</dt>
+                    <dd class="params-car__value icon-date">04.10.2018</dd>
+                  </div>
+                  <div class="params-car__item">
+                    <dt class="params-car__label">Об’єм двигуна</dt>
+                    <dd class="params-car__value icon-engine">1956 см3</dd>
+                  </div>
+                  <div class="params-car__item">
+                    <dt class="params-car__label">КПП</dt>
+                    <dd class="params-car__value icon-transmission">
+                      Mechanic
+                    </dd>
+                  </div>
+                  <div class="params-car__item">
+                    <dt class="params-car__label">Потужність</dt>
+                    <dd class="params-car__value icon-turbo">75 kW</dd>
+                  </div>
+                  <div class="params-car__item">
+                    <dt class="params-car__label">Пробіг</dt>
+                    <dd class="params-car__value icon-run">211886 km</dd>
+                  </div>
+                </dl>
+              </div>
+              <form action="#" name="card-car-rate" class="card__rate cardrate">
+                <label>EUR</label>
+                <input
+                  type="text"
+                  name="car-rate"
+                  class="cardrate__input inputtext"
+                  placeholder="від 20300"
+                />
+                <button type="submit" class="cardrate__btn btn btn--blue">
+                  Розмістити ставку
+                </button>
+              </form>
+            </div>
+            <div class="card__prices">
+              <div class="card__rates-info rates-info">
+                <div class="card__calculate selectstyle">
+                  <select name="car-calculate">
+                    <option value="">Показати розрахунки</option>
+                    <option value="">Option 2</option>
+                    <option value="">Option 3</option>
+                  </select>
+                </div>
+                <div class="rates-info__bet">
+                  <span class="rates-info__label">Розміщена ставка</span>
+                  <span class="rates-info__price price--big price--blue"
+                    >20,300€</span
+                  >
+                </div>
+                <div class="rates-info__bet">
+                  <span class="rates-info__label">Сергій Петров</span>
+                  <a class="rates-info__phone" href="tel:+380937887887"
+                    >+380937887887</a
+                  >
+                </div>
+                <div class="rates-info__bet">
+                  <span class="rates-info__label">Ваша ставка</span>
+                  <span class="rates-info__price price--less price--red"
+                    >20,300€</span
+                  >
+                </div>
+                <div class="rates-info__bet">
+                  <span class="rates-info__label">Вартість авто в Польщі</span>
+                  <span class="rates-info__price price">21,360€</span>
+                </div>
+                <div class="rates-info__bet">
+                  <span class="rates-info__label"
+                    >Орієнтовна ціна з розмитненням</span
+                  >
+                  <span class="rates-info__price price">28,284€</span>
+                </div>
+              </div>
+              <button class="card__btn btn btn--border">
+                Купити одразу за <span>20,500 €</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
